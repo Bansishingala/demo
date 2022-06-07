@@ -5,14 +5,21 @@ import Demo from './Component/Demo';
 import Country from './Container/Country';
 import Countryfun from './Container/Countryfun';
 import City from './Container/City';
-import Cityfun from './Cityfun';
+
+import Time from './Container/Time/Time';
+import Timefun from './Container/Time/Timefun';
+import Count from './Container/Time/Count';
+import Cityfun from './Container/Cityfun';
 
 
 
 function App() {
     return (
         <div>
-            {<Cityfun />}
+            {/* <Count /> */}
+            {/* <Timefun/> */}
+            {/* <Time /> */}
+            <Cityfun />
             {/* <Country /> */}
             {/* <Countryfun /> */}
             {/* <City/> */}
