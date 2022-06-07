@@ -4,7 +4,7 @@ function Countryfun(props) {
     const[CountryName,setcountryname]=useState('india');
     
     const Changecountry = () =>{
-        setcountryname ('USA');
+        setcountryname ('USA'); 
     }
 
         return (

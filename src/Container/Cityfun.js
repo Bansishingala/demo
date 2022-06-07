@@ -7,7 +7,7 @@ function Cityfun(props) {
         setcityname ('bardoli')
     }
 
-    return (
+    return ( 
         <div> 
             <p>{cityName}</p>
             <button onClick={() => changeCity()}>changeCity</button>

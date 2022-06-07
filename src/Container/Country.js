@@ -6,7 +6,7 @@ class Country extends Component {
         
         this.state={
             CountryName :'India'
-        } 
+        }  
     }
     changeCountry = () => {
         this.setState({
