@@ -11,7 +11,7 @@ class City extends Component {
     changeCity = () => {
         this.setState({
             changecity :'Baroda'
-        })
+        }) 
     }
     
     render() {

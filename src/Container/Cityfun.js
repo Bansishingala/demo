@@ -8,7 +8,7 @@ function Cityfun(props) {
     }
 
     return (
-        <div>
+        <div> 
             <p>{cityName}</p>
             <button onClick={() => changeCity()}>changeCity</button>
         </div>
