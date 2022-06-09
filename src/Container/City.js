@@ -9,7 +9,7 @@ class City extends Component {
         }
     }
     changeCity = () => {
-        this.setState({
+        this.setState({ 
             changecity :'Baroda'
         })
     }
@@ -19,6 +19,7 @@ class City extends Component {
             <div>
                 <p>{this.state.changecity}</p>
                 <button onClick={() => this.changeCity()}></button>
+                
             </div>
         );
     }
