@@ -7,7 +7,6 @@ function Loading(Component) {
                 <p>Loading.....!!</p>
                 )
             } else {
-                console.log("lascja");
                 return(
                     <Component data={data}/>
                 )
