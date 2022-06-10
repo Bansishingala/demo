@@ -9,28 +9,36 @@ import Cityfun from './Container/Cityfun';
 import  {Component, useEffect ,useState} from 'react' ;
 import  Loading from './Container/HOC/Loading';
 import  Home from './Container/HOC/Home';
+import Timefun from './Container/Time/Timefun';
+import Counter from './Container/Time/Counter';
+import CityFun from './Container/Cityfun';
 
-const Homewithloading = Loading(Home);
+
+// const Homewithloading = Loading(Home);
 
 function App() {
 
-    const  [loading , setLoading] = useState(false)
-    const  [data , setData] = useState([])
+    // const  [loading , setLoading] = useState(false)
+    // const  [data , setData] = useState([])
 
-    const Orgdata= [
-        {id:101 ,name:"amit"},
-        {id:102 , name:"ajay"}
-    ]
-    useEffect(()=>{
-        setLoading(true)
-        setTimeout(() => {setLoading(false) ; setData(Orgdata)}, 2000);
-    }, [])
+    // const Orgdata= [
+    //     {id:101 ,name:"amit"},
+    //     {id:102 , name:"ajay"}
+    // ]
+    // useEffect(()=>{
+    //     setLoading(true)
+    //     setTimeout(() => {setLoading(false) ; setData(Orgdata)}, 2000);
+    // }, [])
     return (
         <div>
-           <Homewithloading 
+           {/* <Homewithloading 
                 isloading={loading}
                 data={data}
-           />
+           /> */}
+           <City />
+           < CityFun />
+        
+          
         </div>
     )
 }

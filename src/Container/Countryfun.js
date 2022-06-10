@@ -1,18 +1,21 @@
 import React, { useState } from 'react';
 
-function Countryfun(props) {
-    const[CountryName,setcountryname]=useState('india');
-    
-    const Changecountry = () =>{
-        setcountryname ('USA');
+
+function CountryFun(props) {
+    const [countryName,setcountryName] = useState("India");
+
+    const changeCountry = () => {
+        setcountryName("US");
     }
 
-        return (
+    return (
         <div>
-            <p>{CountryName}</p>
-            <button onClick={() =>Changecountry()}>Changecountry</button>
+            <p>{countryName}</p>
+            <button onClick={() => changeCountry()}>Change Country</button>
+            <cityFun id="105" country_Name={countryName}/>
+            <p>{countryName === "India" ? "Famous Place Taj Mahal" : "Waikiki"}</p>
         </div>
     );
 }
 
-export default Countryfun;
+export default CountryFun;
