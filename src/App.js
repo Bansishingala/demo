@@ -12,6 +12,7 @@ import  Home from './Container/HOC/Home';
 import Timefun from './Container/Time/Timefun';
 import Counter from './Container/Time/Counter';
 import CityFun from './Container/Cityfun';
+import Counterp from './Container/Time/Counterp';
 
 
 // const Homewithloading = Loading(Home);
@@ -35,10 +36,11 @@ function App() {
                 isloading={loading}
                 data={data}
            /> */}
-           <City />
-           < CityFun />
-        
-          
+           {/* <City />
+           < CityFun /> */}
+           {/* <Counter > */}
+        {/* <Counterp /> */}
+          {/* <Timefun /> */}
         </div>
     )
 }
